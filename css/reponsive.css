@@ -1,3 +1,13 @@
+/* responsive Nav */
+@media (max-width:1023px)
+{
+    .social{
+        display: block;
+    }
+    .naavbar{
+        display: none;
+    }
+}
 /* extra small devices */
 
 @media only screen and (max-width:992px){
@@ -154,6 +164,16 @@
         margin-bottom: 50px;
     }
     .Dream-section-img{
+        margin: 0 auto;
+    }
+    .img-mask{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .About-the-host{
+        margin: 0 auto;
+    }
+    .dream-content{
         margin: 0 auto;
     }
  }

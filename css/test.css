@@ -1,0 +1,104 @@
+.navb{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 72px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+padding: 0px 80px;
+justify-content: space-between;
+}
+.menuItem{
+    left: 80px;
+}
+.naavbar a li{
+    display: inline-block;
+    margin-left: 48px;
+    color: #000;
+
+}
+.naavbar img{
+    height: 25px;
+    margin-left: 22px;
+}
+.overlay{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(0, 0, 0, 0.3);
+display: none;
+animation: fadeIn ease-in 0.3s;
+}
+.social{
+    display:none;
+}
+.nav-mobile{
+    position: fixed;
+    right:0;
+    top: 0;
+    bottom: 0;
+    width:320px ;
+    max-width: 100%;
+    background-color: #fff;
+    transform: translateX(100%);
+    transition: linear 0.5s;
+}
+.nav-mobile a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.nav-mobile li{
+    list-style-type: none;
+    display: block;
+    /* margin-top: 24px; */
+    padding: 8px 0;
+
+
+}
+.naavbar-mobile-list{
+    margin-top: 24px;
+}
+.naavbar-mobile-list img{
+    height: 25px;
+    margin-right: 22px;
+    margin-top: 30px;
+}
+.nav-close{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top:1rem;
+    right: 1rem;
+}
+.nav__input:checked ~ .overlay{
+    display: block;
+}
+.nav__input:checked ~ .nav-mobile{
+    transform: translateX(0%);
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/* responsive */
+@media (max-width:1023px)
+{
+    .social{
+        display: block;
+    }
+    .naavbar{
+        display: none;
+    }
+}
