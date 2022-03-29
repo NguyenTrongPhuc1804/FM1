@@ -63,24 +63,34 @@ letter-spacing: 3px;
 
 /* Nav */
 .navb{
+    z-index: 3;
     display: flex;
     align-items: center;
     width: 100%;
     height: 72px;
     font-weight: 400;
-font-size: 16px;
-line-height: 28px;
+
 padding: 0px 80px;
 justify-content: space-between;
+
 }
 .menuItem{
     left: 80px;
+}
+.naavbar{
+    margin: 0;
 }
 .naavbar a li{
     display: inline-block;
     margin-left: 48px;
     color: #000;
+    font-size: 16px;
+    line-height: 72px;
 
+}
+.naavbar a:hover li{
+   color: #503AE7;
+  
 }
 .naavbar img{
     height: 25px;
@@ -128,6 +138,9 @@ animation: fadeIn ease-in 0.3s;
 }
 .naavbar-mobile-list{
     margin-top: 24px;
+}
+.naavbar-mobile-list a:hover{
+    color: #503AE7;
 }
 .naavbar-mobile-list img{
     height: 25px;
