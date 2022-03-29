@@ -1,0 +1,257 @@
+
+.About-the-host{
+    /* margin-left: 30px; */
+    max-width: 397px;
+    padding-top: 48px;
+}
+.About-the-host p:first-child{
+   margin-bottom: 32px;
+}
+.About-the-host p{
+    margin-bottom: 48px;
+}
+.About-the-host button{
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 151px;
+    height: 48px;
+    /* identical to box height, or 150% */
+    background: #503AE7;
+   border: none;
+    
+    /* White */
+    
+    color: #FFFFFF;
+}
+
+.Header-host{
+    
+    max-width: 1069px;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 130px;
+   
+}
+.img-mask {   
+    max-width:100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 462px; 
+    background-image: url('../img/Screenshot\ 2022-03-21\ 105608.jpg');
+     
+    
+}
+.Brands-list{
+    margin-bottom: 128px;
+}
+/* brand */
+/* Dream-section */
+.Dream{
+    margin-bottom: 21px;
+    /*   */
+}
+.Dream-section{
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+}
+.col{
+    padding: 0;
+}
+.col-6{
+    padding: 0;
+}
+.dream-content{
+    max-width: 522px ;
+    height: 100%;
+    padding-top: 157px;
+    
+}
+/* .dream-content h2{
+max-width: 322px;
+height: 76px;
+}
+.dream-content > p{
+    max-width: 522px;
+    height: 72px;
+} */
+.Dream-section-img{
+    max-width: 694px;
+    height: 635px; 
+    position: relative;
+}
+.img-man{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90%;
+    height: 615px;
+    top: 0;
+    right: 0;
+    background-image: url('../img/man-wearing-a-puffer-jacket-6878718.png');
+}
+.box-sound{
+    position: absolute;
+    width: 384px;
+    height: 124px;
+    bottom: 0;
+    left: 0;
+    background: #503AE7;
+    
+}
+.box-sound img{
+    width: 320px;
+    height: 92px;
+    margin-top: 16px;
+    margin-left: 32px;
+    
+}
+/* journey */
+.journey{
+    /* min-height: 714px; */
+
+}
+.journey-box{
+    /* height: 585px; */
+    max-width: 1267px;
+    margin: 0 15%;
+}
+.text-journey-right{
+    max-width: 480px;
+    height: 388px;
+   
+}
+.text-journey-right h2{
+    max-width: 366.81px;
+    height: 76px;
+    margin-bottom: 32px;
+}
+.text-journey-right p{
+    max-width: 480px;
+    height: 280px;
+}
+.text-journet-left{
+    max-width: 480px;
+    height: 472px;
+    margin-bottom: 32px;
+    
+}
+.text-journet-left h2{
+    max-width: 403.09px;
+    /* height: 76px; */
+    margin-bottom: 32px;
+}
+.text-journet-left p{
+    max-width: 480px;
+    height: 364px;
+}
+/* Achievement */
+.Achievements-box{
+    margin-left: 130px;
+    width: 1280px;
+    height: 560px;
+    margin-top: 128px;
+}
+.Achieavement-item{
+    width: 308px;
+    height: 464px;
+    background: #503AE7;
+    position: relative;
+    margin-right: 16px;
+   
+}
+.Achieavement-item img{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 64px;
+    left: 89px;
+}
+
+.Achievement-content{
+width: 225px;
+height: 112px;
+position: absolute;
+bottom: 64px;
+left: 40px;
+}
+.Achievement-content p:first-child{
+    width: 225px;
+    height: 58px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #F4F2FF;
+}
+.Achievement-content p{
+width: 225px;
+height: 38px;
+font-weight: 700;
+font-size: 32px;
+color: #F4F2FF;
+}
+.Achieve-top{
+    margin-top: 96px;
+}
+/* CTA */
+
+.CTA{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 128px;
+    margin-top: 128px;
+    height: 586px;
+    position: relative;
+    background-size: cover;
+    background-image: url('../img/real-man.png');
+}
+.Pulse h1{
+    
+    /* max-width: 100%; */
+/* height: 106px; */
+font-weight: 700;font-size: 48px ;
+}
+.Pulse{
+    /* margin-bottom: 128px; */
+    position: absolute;
+    width: 100%;
+    /* height: 330px; */
+    top: 128px;
+    left: 208px;
+    color: #fff;
+    position: relative;
+
+}
+.Pulse p{
+    /* max-width: 440px; */
+    /* height: 112px; */
+    padding: 32px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+}
+.Pulse button{
+    position: absolute;
+    bottom: 0;
+}
+.btn{
+    width: 148px;
+height: 48px;
+}
+.CTA-box{
+max-width: 571px;
+height: 146px;
+background: #503AE7;
+position: absolute;
+bottom: 0;
+right: 0;
+background-image: url('../img/nhiptim.png');
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.Recent{
+    margin-bottom: 315px;
+}
+

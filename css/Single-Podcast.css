@@ -1,0 +1,112 @@
+/* common */
+p{
+    margin: 0;
+}
+.Nav{
+    margin-bottom: 64px;
+}
+h2{margin:0;}
+/* Featured-Post */
+
+.Featured-box{
+    margin: 0 auto;
+    display: flex;
+    width: 1280px;
+    height: 400px;
+    margin-bottom: 128px;
+}
+.Podcast-img{
+    background-size: cover;
+    background-repeat: none;
+    width: 616px;
+    height: 400px;
+    background-image: url('/img/photo-of-people-doing-handshakes-3183197.png');
+}
+.featured-content{
+    padding-top: 48px;
+    padding-left: 48px;
+    width: 616px;
+    height: 304px;
+}
+.featured-content h2{
+    width: 616px;
+height: 76px;
+}
+.btn-featured
+{
+    border: none;
+    background: #503AE7;
+    margin: 0;
+    width: 231px;
+        height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    line-height: 56px;
+}
+.btn-featured{
+    margin-bottom: 0;
+}
+/* Episode */
+.Episode-box{
+    margin: 0 auto;
+    width: 1023.73px;
+    height: 752px;
+    display: flex;
+    justify-content: space-between;
+}
+.Episode-content{
+    width: 636px;
+height: 752px;
+}
+.Episode-content li{
+    list-style-type: circle ;
+}
+.Episode-content h2{
+    margin-bottom: 20px;
+}
+.Episode-content ul{
+    margin: 24px 0;
+}
+/* Author */
+.Author{
+    
+}
+.Author-box{
+    padding-left: 48px;
+    left: 208px;
+    display: flex;
+    margin-left: 248px;
+    margin-top: 64px;
+    width: 625px;
+    height: 211px;
+    border-left:16px solid  #503AE7; ;
+}
+.Author-avatar{
+    width: 177px;
+    height: 173px;
+}
+.Author-avatar >img{
+    width: 64px;
+    height: 64px;
+}
+.icon-social a img{
+    width: 16px;
+    height: 16px;
+}
+.Recu-text{
+    width: 320px;
+    height: 144px;
+}
+.Content-top{
+    height: 38px !important;
+}
+.Content-top h2{
+    margin-bottom: -20px;
+}
+p{
+    margin-bottom: 16px;
+}
+

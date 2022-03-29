@@ -1,0 +1,213 @@
+/* extra small devices */
+
+@media only screen and (max-width:992px){
+ 
+
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .Right{
+        padding: 50px;
+       }
+       .Left{
+           width: 100vw;
+       }
+       .box-Yutube{
+        display: none;
+    }
+     
+     .Left{
+         height: 650px;
+        background-size: contain;
+        margin-bottom: -200px;
+    }
+    .btn-See{
+        margin-top: 50px;
+    }
+    .mic{
+        display: none;
+    }
+    .input-Sub button{
+        margin-top: 10px;
+    }
+    .Content-input h2{
+        margin-bottom: 10px;
+    }
+    .Subcribe-box{
+        padding: 0 15px;
+    }
+    .box-full{
+        margin-bottom: 50px;
+    }
+    .Subcribe button{
+        margin-top: 15px;
+    }
+    .Dream{
+        margin-bottom: -128px;
+    }
+    .text-journey-right{
+        height:650px;
+    }
+    .Pulse{
+        top: 80px;
+    }
+    .hero-content {
+        left: 0;
+        top: 10px;
+    }
+    .Top-row {
+        margin-left: 0;
+    }
+    .Footer-box{
+        text-align: center;
+    }
+    .page-collum{
+        margin-top: 20px;
+    }
+
+ }
+@media (max-width:1023px) {
+    .Footer-box{
+        padding-top: 50px;
+        
+    }
+}
+ @media (max-width: 768px)
+ {
+    .Auditrack img{
+        margin-top: 50px;
+    }
+    .Dream-section-img{
+        margin: 0 auto;
+    }
+    .Pulse {
+        left: 0;
+    }
+    .box-Yutube{
+     left: 0;
+     bottom: 0;
+    }
+   
+    
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .btn-See{
+        margin-top: 0;
+    }
+    .box-Yutube{
+        display: none;
+    }
+    .Left{
+        margin-bottom: -150px;
+    }
+    .mic{
+        display: none;
+    }
+    .box-full{
+        margin-bottom: 50px;
+    }
+    .text-journey-right{
+        height: 488px;
+    }
+ }
+ @media  (max-width: 991.98px){
+    .img-man {
+        width: 100%;
+        
+    }
+    .hero-card{
+        left: 0;
+    }
+ }
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .Auditrack img{
+        margin-top: 50px;
+    }
+    .Content-left{
+        text-align: justify;
+    }
+     .Subcribe button{
+         margin-top: 20px;
+     }
+     .brand-box{
+        margin: 50px 0;
+    }
+    .brand-box .container .row .col img{
+        padding-top: 5px;
+    }
+    .Nav{
+        margin-bottom: 50px;
+    }
+    .Content-right{
+        padding-left: 10px 0;
+        width: 100%;
+       
+    }
+    .Line{
+        max-width: 100%;
+    }
+    .box-full{
+        margin-bottom: 50px;
+    }
+    .Dream-section-img{
+        margin: 0 auto;
+    }
+ }
+ @media  (max-width: 1199.98px)
+ {
+    .Content-right{
+        padding-top: 0;
+        padding-left: 30px;
+    }
+    .Footer-box{
+        padding-left: 0;
+        
+    }
+    .Sponsors{
+        display: none;
+    }
+    .box-sound
+    {
+        display: none;
+    }
+    .Achievements{
+        display: none;
+    }
+    .CTA-box{
+        display: none;
+    }
+    
+ }
+ 
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .Content-right{
+        padding-left: 10px 0;
+        width: 100%;
+       
+    }
+    .Line{
+        max-width: 100%;
+    }
+    
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .Content-right{
+        margin-left: 128px;
+    }
+    .Right{
+        margin-left: 131px;
+    }
+    .Footer-box{
+        margin-top: 400px;
+    }
+    .Dream{
+        margin-bottom: 128px;
+    }
+ }
