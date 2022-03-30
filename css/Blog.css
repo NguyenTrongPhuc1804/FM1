@@ -1,6 +1,6 @@
-.Podcast-img{
+/* .Podcast-img{
     order: 2;
-    width: 616px !important; 
+    max-width: 616px !important; 
     height: 448px !important;
 }
 .featured-content{
@@ -11,17 +11,17 @@
     height: 268px !important;
 }
 .featured-content h2{
-    width: 522px !important;
+    max-width: 522px !important;
 height: 76px !important;
 }
 .Featured-box{
-    
-    width: 1280px !important;
+    flex-wrap: wrap;
+    max-width: 1280px !important;
     height: 448px !important;
 }
 .featured-content a{
     
-    width: 109px;
+    max-width: 109px;
 height: 24px;
 font-weight: 600;
 font-size: 16px;
@@ -33,4 +33,41 @@ color: #503AE7;
    margin-bottom: 4px;
     width: 23px;
     height: 12px;
+} */
+.Blog-hero a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #503AE7;
+}
+.img-blog img {
+    /* max-width: 616px; */
+    height: auto;
+    width: 100%;
+}
+.Content-top {
+    height: auto;
+}
+.Content-top h2{
+    margin-bottom: 0;
+}
+.button-music p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #503AE7;
+}
+
+.Subcribe-box{
+    position: absolute;
+    top: -200px;
+    width: 1280px;
+    left: 8%;
+    
+}
+@media  (max-width: 1199.98px)
+{
+    .Subcribe{
+        display: none;
+    }
 }

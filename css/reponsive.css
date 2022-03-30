@@ -65,7 +65,8 @@
     }
     .hero-content {
         left: 0;
-        top: 10px;
+        top: 15px;
+        padding: 0 5px;
     }
     .Top-row {
         margin-left: 0;
