@@ -77,7 +77,22 @@
     .page-collum{
         margin-top: 20px;
     }
-
+    .bottom-content{
+        flex-direction: column;
+    }
+    .Sponsor-About{
+        margin: 0 2%;
+    }
+    .Team-box{
+        margin: 0 2%;
+    }
+    .about-box{
+        margin: 0 2%;
+    }
+    .Content-top{
+        display: flex;
+        
+    }
  }
 @media (max-width:1023px) {
     .Footer-box{
@@ -100,7 +115,20 @@
      left: 0;
      bottom: 0;
     }
-   
+    .Author-box{
+        flex-direction: column ;
+        height: auto    ;
+    }
+    .about-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Icon-about{
+        margin-top: 20%;
+    }
+    .Item-about {
+        padding: 0 20%;
+    }
     
  }
 /* // Small devices (landscape phones, 576px and up) */
@@ -131,6 +159,9 @@
     }
     .hero-card{
         left: 0;
+    }
+    .Author-box{
+        margin-left: 5%;
     }
  }
 /* // Medium devices (tablets, 768px and up) */
@@ -201,7 +232,27 @@
     .CTA-box{
         display: none;
     }
-    
+    .Featured-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Episode-box{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .Episode-content{
+        height: auto;
+    }
+    .Meeting-box{
+        justify-content: space-around;
+    }
+    .Meeting >h2{
+        text-align: center;
+    }
+    .Sponsor-About{
+        justify-content: space-around;
+    }
  }
  
 /* // Large devices (desktops, 992px and up) */
@@ -231,4 +282,6 @@
     .Dream{
         margin-bottom: 128px;
     }
+    
  }
+ 

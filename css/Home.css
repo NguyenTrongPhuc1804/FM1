@@ -403,7 +403,7 @@ margin-bottom: 60px;
 /* recent */
 .Content-top{
     max-width: 372px;
-    height: 108px;
+    /* height: 108px; */
 }
 .Content-top h2{
     font-weight: 700;

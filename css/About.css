@@ -138,3 +138,36 @@ margin-right: 24px;
    max-width: 161px;
    /* align-items: center; */
 }
+.Sponsor-bottom{
+    height: 100%;
+    width: 100%;
+    padding: 32px 32px;
+}
+
+.Sponsor-About .Sponsor-Item:last-child {
+    background: #503AE7;
+    /* text-align: justify; */
+}
+
+
+.Sponsor-About .Sponsor-Item:last-child .Sponsor-bottom p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;color: #F4F2FF;
+    width: 99px;
+    height: 24px;
+   
+}
+
+.Sponsor-About .Sponsor-Item:last-child .Sponsor-bottom h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125%;color: #F4F2FF;
+    width: 208px;
+    height: 60px;
+}
+.Line-bottom{
+    width: 39px;
+height: 4px;
+background: #1AD993;
+}

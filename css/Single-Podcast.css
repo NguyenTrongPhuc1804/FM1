@@ -12,25 +12,31 @@ h2{margin:0;}
     margin: 0 auto;
     display: flex;
     width: 1280px;
-    height: 400px;
+    max-width: 100%;
+    height: auto;
     margin-bottom: 128px;
+    justify-content: space-between;
 }
 .Podcast-img{
     background-size: cover;
     background-repeat: none;
     width: 616px;
+    max-width: 100%;
     height: 400px;
     background-image: url('/img/photo-of-people-doing-handshakes-3183197.png');
 }
 .featured-content{
     padding-top: 48px;
-    padding-left: 48px;
+    /* padding-left: 48px; */
+    
     width: 616px;
+    max-width: 100%;
     height: 304px;
 }
 .featured-content h2{
     width: 616px;
-height: 76px;
+    max-width: 100%;
+    /* height: 76px; */
 }
 .btn-featured
 {
@@ -53,12 +59,14 @@ height: 76px;
 .Episode-box{
     margin: 0 auto;
     width: 1023.73px;
+    max-width: 100%;
     height: 752px;
     display: flex;
     justify-content: space-between;
 }
 .Episode-content{
     width: 636px;
+    max-width: 100%;
 height: 752px;
 }
 .Episode-content li{
@@ -66,10 +74,17 @@ height: 752px;
 }
 .Episode-content h2{
     margin-bottom: 20px;
+    width: 387px;
+    max-width: 100%;
 }
 .Episode-content ul{
     margin: 24px 0;
 }
+.Subcribe-episode{
+    width: 250px;
+    max-width: 100%;
+}
+
 /* Author */
 .Author{
     
@@ -81,6 +96,7 @@ height: 752px;
     margin-left: 248px;
     margin-top: 64px;
     width: 625px;
+    max-width: 100%;
     height: 211px;
     border-left:16px solid  #503AE7; ;
 }
@@ -96,15 +112,21 @@ height: 752px;
     width: 16px;
     height: 16px;
 }
-.Recu-text{
-    width: 320px;
+.Recu-text p{
+    max-width: 320px;
+    
     height: 144px;
 }
 .Content-top{
-    height: 38px !important;
+    /* height: 38px !important; */
+    /* margin-bottom: 64px; */
+    height: auto;
+}
+.Item{
+    margin-top: 0;
 }
 .Content-top h2{
-    margin-bottom: -20px;
+    /* margin-bottom: -20px; */
 }
 p{
     margin-bottom: 16px;
