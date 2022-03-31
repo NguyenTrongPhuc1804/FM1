@@ -93,6 +93,14 @@
         display: flex;
         
     }
+    .Content-Single{
+        padding: 0 2%;
+        text-align: center;
+    }
+    .Body-content{
+        padding: 0 2%;
+        /* text-align: center; */
+    }
  }
 @media (max-width:1023px) {
     .Footer-box{
