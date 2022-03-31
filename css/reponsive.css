@@ -104,6 +104,9 @@
     .Lines{
         display: none;
     }
+    .brand-box{
+        padding: 0 15%;
+    }
  }
 @media (max-width:1023px) {
     .Footer-box{
