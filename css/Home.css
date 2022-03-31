@@ -4,17 +4,13 @@
     box-sizing: border-box;
     
 }
-/* html{
-    overflow: hidden;
-} */
+
 a{
     text-decoration: none;
     color: #14142B;
 }
 /* comman */
-/* .container{
-    width: 1280px;
-} */
+
 
 .col-auto{
     padding: 0;
@@ -32,12 +28,20 @@ ul{
     font-weight: 700;
     font-size: 32px; 
 }
-.font-hedaing3{
+.font-heading3{
     font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
 line-height: 125%;
+}
+.font-heading4{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+color: #808080;
 }
 .font-content{
     font-family: 'Inter';
@@ -716,12 +720,20 @@ background-image: url('../img/top-view-of-assorted-gadgets-on-desk-3568520.png')
    position: relative;
     
 }
-
+.page-collum{
+    padding: 0;
+}
 .page-collum li{
 padding-bottom: 16px;
 }
+.forUs{
+    padding: 0;
+}
 .forUs li{
 padding-bottom: 16px;
+}
+.Subcollum{
+    padding: 0  ;
 }
 .Subcollum li{
 padding-bottom: 16px;

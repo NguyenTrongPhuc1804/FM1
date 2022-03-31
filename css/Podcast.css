@@ -58,7 +58,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-.play-icon p{
+.play-icon  p{
     align-items: center;
     justify-content: center;
     font-weight: 600;

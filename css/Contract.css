@@ -1,0 +1,92 @@
+/* Form */
+.Content-Right-contract{
+    max-width: 468px;
+    
+}
+.Subcribe-Now{
+width: 100%;
+}
+.social-icon-brand{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15%;
+}
+.social-icon-brand img{
+    width: auto;
+    height: 32px;
+    margin-top: 38px;
+}
+.social-icon-brand img:last-child{
+    /* width: 174px; */
+    margin-right: 46px;
+}
+.Social-wrapper h4{
+    margin-bottom: 34px;
+}
+.Social-wrapper img{
+    margin-right: 24px;
+}
+.Form-Contract{
+    width: 624px;
+    max-width: 100%;
+    height: auto;
+    margin-right: 8%;
+    margin-bottom: 10%;
+}
+.Form-info{
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+.header-content{
+    margin-bottom: 48px;
+}
+.Form-info input{
+    border: none;
+    background: #F4F2FF;
+    height: 48px;
+    margin-bottom: 16px;
+    padding-left: 16px;
+}
+
+.Form-info input:last-child{
+    width: 100%;
+    height: 128px;
+    resize: none;
+}
+.Form-info textarea{
+    height: 128px;
+    border: none;
+    background: #F4F2FF;
+    padding-left: 16px;
+    padding-top: 10px;
+
+}
+.Form-Contract button{
+    border: none;
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+    width: 162px;
+    height: 48px;
+    background: #503AE7;
+    color: #fff;
+    margin-top: 32px;
+}
+.Form{
+    display: flex;
+    margin-left: 5%;
+    position: relative;
+    flex-wrap: wrap;
+}
+.Lines{
+    position: absolute;
+    right: 227px;
+    bottom: -200px;
+    max-width: 279px;
+}
+
+
+
