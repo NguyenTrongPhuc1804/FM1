@@ -26,6 +26,11 @@
 
 </head>
 <body>
+    <section class="Scroll">
+        <button id="btnSrollTop">
+            <img src="./img/angles-up-solid.svg" alt="">
+       </button>
+    </section>
     <section class="NavB">
         <div class="navb">
             <a href="../index.html">
@@ -220,6 +225,16 @@ data-aos-anchor-placement="top-bottom">
 </section> 
 <script>
     AOS.init();
+
+    const btnScrollTop = document.querySelector("#btnSrollTop");
+btnScrollTop.addEventListener("click", function (){
+  window.scrollTo({
+      top:0,
+      left:0,
+      behavior:"smooth"
+  });
+  
+})
   </script>
 </body>
 </html>
