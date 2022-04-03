@@ -25,7 +25,11 @@
 </head>
 <body>
     <header>
-        
+        <section class="Scroll">
+            <button id="btnSrollTop">
+                <img src="../img/angles-up-solid.svg" alt="">
+           </button>
+        </section>
         <section class="NavB">
             <div class="navb">
                 <a href="./index.html">
@@ -144,7 +148,7 @@
             
         <div class="contaier-fluid">
             <div class="row justify-content-lg-end">
-                <div class="col-xl-4" data-aos="zoom-out"data-aos-duration="1000">
+                <div class="col-xl-4 " data-aos="zoom-out"data-aos-duration="1000">
                     <div class="Line">
                             <h2>A podcast for makers and entrepreneurs</h2>
                             <p>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. </p>
@@ -186,11 +190,11 @@
                             <!-- <img  src="/img/man-in-beige-suit-jacket-sitting-on-chair-6878173.png" alt=""> -->
                         </div>
                     </div>
-                    <div class="col-xl-4" data-aos="flip-right"
+                    <div class="col-xl-5" data-aos="flip-right"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="1000">
                         <div class="Content-right">
-                                <h2>My origins on YouTube in 2008</h2>
+                                <h2>My origins on <br> <span style="color: #503AE7;">YouTube</span>  in 2008</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus cras lacus tellus morbi viverra suspendisse ornare. Sit volutpat, volutpat ut netus malesuada enim penatibus non aliquet. </p>
                         </div>
                         
@@ -578,8 +582,8 @@
       AOS.init();
       
       const btnScrollTop = document.querySelector("#btnSrollTop");
-btnScrollTop.addEventListener("click", function (){
-  window.scrollTo({
+    btnScrollTop.addEventListener("click", function (){
+    window.scrollTo({
       top:0,
       left:0,
       behavior:"smooth"

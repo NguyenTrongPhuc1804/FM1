@@ -233,6 +233,7 @@
     .Content-right{
         padding-top: 0;
         padding-left: 30px;
+        max-width: 100%;
     }
     .Footer-box{
         padding-left: 0;
@@ -290,7 +291,7 @@
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .Content-right{
-        margin-left: 128px;
+        margin-left: 20%;
     }
     .Right{
         /* margin-left: 131px; */
