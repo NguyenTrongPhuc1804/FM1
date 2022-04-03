@@ -539,6 +539,7 @@ margin-bottom: 60px;
   margin-top: 128px;
 }
 /* Testimonials */
+
 .Arrow{
    
     margin-top: 132px;
@@ -736,14 +737,25 @@ background-image: url('../img/top-view-of-assorted-gadgets-on-desk-3568520.png')
 }
 
 /* footer */
-
+.Copyright{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    height: 64px;
+    background-color: #503AE7;
+    }
+    .Copyright p{
+        line-height: 64px;
+        font-weight: 700;
+        font-size: 16px;
+    }
 .Footer-box{
     width: 100%;
     min-height: 574px;
     color: #fff;
     background: #14142B;
     padding-top: 192px;
-    padding-left: 160px;
    position: relative;
     
 }
