@@ -183,7 +183,8 @@
         margin-left: 5%;
     }
     .navb{
-        padding: 0;
+        padding-left: 0;
+        padding-right: 30px;
     }
  }
 /* // Medium devices (tablets, 768px and up) */
