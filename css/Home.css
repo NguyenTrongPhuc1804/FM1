@@ -71,7 +71,7 @@ letter-spacing: 3px;
 /* BtnScrollTop */
 #btnSrollTop{
     position: fixed;
-    right: 50%;    
+    right: 10px;    
     bottom: 10px;
     width: 50px;
     height: 50px;
@@ -80,17 +80,18 @@ letter-spacing: 3px;
     z-index: 100;
     border: none;
     background: #fff;
-    border-radius: 50%;
+    border-radius: 15px;
     box-shadow: 5px 10px 18px #888888;
     transition: all .2s linear;
 }
-
 #btnSrollTop:hover{
     transform: scale(120%);
 }
 #btnSrollTop img{
-    width: 30px;
-    height: 30px;    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
 }
 
 
@@ -285,8 +286,19 @@ height: 302px;
 }
 
 /* Brands */
-
-
+.Brand-box{
+    width: 1280px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.Brand-box .Logo-Brand{
+    width: auto;
+}
+.Content-Brands{
+    
+}
 
 .brand-box{
     margin-bottom: 139px;
@@ -539,7 +551,55 @@ margin-bottom: 60px;
   margin-top: 128px;
 }
 /* Testimonials */
+.Testimonials-container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.Item-layout{
+    width: 416px;
+    max-width: 100%;
+    margin: 0 16px;
+}
+.Item-Box{
+    /* margin: 0 auto; */
+    width: 100%;
+    /* display: grid; */
+    /* grid-template-columns: repeat(4 ,1fr); */
+    /* column-gap: 16px; */
+}
 
+.slick-prev{
+    position: absolute;
+    top: -67px;
+    right: 80px;
+    
+    border: none;
+    border-radius: 50%;   
+    z-index: 2; 
+}
+.slick-next{
+    position: absolute;
+    top: -67px;
+    right: 0;
+    
+    border: none;
+    border-radius: 50%;
+}
+.control-c{
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+.Listener{
+    max-width: 512px;
+
+}
+.Testimonials{
+    margin: 0 auto;
+    width: 1280px;
+    /* height: 485px; */
+    max-width: 100%;
+}
 .Arrow{
    
     margin-top: 132px;
@@ -737,25 +797,14 @@ background-image: url('../img/top-view-of-assorted-gadgets-on-desk-3568520.png')
 }
 
 /* footer */
-.Copyright{
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    bottom: 0;
-    height: 64px;
-    background-color: #503AE7;
-    }
-    .Copyright p{
-        line-height: 64px;
-        font-weight: 700;
-        font-size: 16px;
-    }
+
 .Footer-box{
     width: 100%;
     min-height: 574px;
     color: #fff;
     background: #14142B;
     padding-top: 192px;
+    padding-left: 160px;
    position: relative;
     
 }
@@ -788,7 +837,8 @@ margin-right: 16px;
     padding-top: 72px;
 }
 .CTA-box{
-    width: 586px;
+width: 586px;
 height: 878px;
 }
+
 /* respon */
