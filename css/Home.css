@@ -245,7 +245,7 @@ left: 208px;
 top: 518px;
 }
 .Subcribe input{
-    min-width: 332px;
+    width: 332px;
     height: 48px;
     background: #F4F2FF;
     border: none;
