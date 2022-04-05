@@ -107,6 +107,9 @@
     .brand-box{
         padding: 0 15%;
     }
+    html{
+        overflow-x: hidden;
+    }
  }
 @media (max-width:1023px) {
     .Footer-box{
@@ -148,6 +151,9 @@
     }
     .Lines{
         bottom: -400px;
+    }
+    html{
+        overflow-x: hidden;
     }
  }
 /* // Small devices (landscape phones, 576px and up) */

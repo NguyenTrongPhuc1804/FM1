@@ -38,5 +38,4 @@ $(document).ready(function(){
 }); 
 
 // scoll smooth
-
-document.addEventListener('touchstart', onTouchStart, {passive: true});
+// document.addEventListener('touchstart', onTouchStart, {passive: true});
