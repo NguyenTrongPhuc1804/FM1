@@ -6,8 +6,8 @@ $(document).ready(function(){
     autoplay:true,
     autoplaySpeed:2000,
     Infinity:true,
-    prevArrow:"<img class='a-left control-c prev slick-prev' src='../img/Left Arrow.png'>",
-    nextArrow:"<img class='a-right control-c next slick-next' src='../img/Right Arrow.png'>",
+    prevArrow:"<img class='a-left control-c prev slick-prev' src='./img/Left Arrow.png'>",
+    nextArrow:"<img class='a-right control-c next slick-next' src='./img/Right Arrow.png'>",
     responsive: [
       {
         breakpoint: 1025,
